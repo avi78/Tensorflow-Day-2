@@ -1,0 +1,37 @@
+     Day 2    Workshop ML
+
+# For streaming ur project u need website, app, or cloud
+# Streamlit is one alternative where u don't need to make website on your own
+import streamlit
+streamlit.title("GDSC NMIT")
+streamlit.header("Deep learning with Tensorflow")
+streamlit.sidebar.markdown('### This is a markdown text')
+streamlit.sidebar.write('#### This is a normal text')
+o= streamlit.button("Click")
+img= streamlit.file_uploader("upload your file")
+# to run the code in terminal : streamlit run app.py
+
+
+VGG- 16 CNN Model
+Different CNN architecture- Interview ques
+Normalisation happens only when u have traing data from 1-255
+
+
+Steps to follow to solve any computervision problem-
+1. Import
+2. Download Dataset
+3. ImageData Generator
+4. Analyze the data
+5. Visualize
+6. CNN Model
+7. Techniques to reduce overfit
+   - Data Augmentation technique
+   - Dropout - to reduce overtraining of model  # model.add(keras.layers.Dropout(0.5))
+   - Regularisation - to add complexity  # model.add(keras.layers.Dense(128,activation="relu",kernel_regularizer=tf.keras.regularizers.L2(0.01)))
+8. Compile and fit
+9. Predict
+10. Real-time
+
+whenever you get lookup error then download the library required that will be given in error block itself , add those and run if it shows true then delete after execution
+
+   
